@@ -10,6 +10,8 @@ APP_ID 를 info.plist 파일에 등록한다.
 다운로드 받은 SDK 압축파일을 풀면 s2offerwall.xcframework 폴더가 생성됩니다. s2offerwall.xcframework 폴더를 XCode 내에 마우스로 드래그합니다. 
 이후 XCode -> Target -> General -> Frameworks, Libraries, and Embedded Content 항목에 s2offerwall.xcframework 가 있는 것을 확인하시고 Embed 설정을 Embed & Sign 으로 변경합니다.
 
+![라이브러리_등록하기](./images/add_library.jpg)
+
 # 초기화
 ## S2Offerwall
 - public static func initSdk(_ listener:InitializeListener?)
